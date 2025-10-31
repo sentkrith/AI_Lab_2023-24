@@ -2,8 +2,25 @@
 ### DATE: 25/10/2025                                                                       
 ### REGISTER NUMBER : 212223060254
 ### AIM: 
-To write a program to train the classifier for -----------------.
+The aim of this model is to predict the risk of liver failure using key clinical and biochemical parameters through machine learning. It helps in early detection of liver disorders and supports data-driven medical decision-making.
+
+##  **Objective**
+
+The objective of this model is to **develop an efficient and accurate machine learning system** that can:
+
+1. **Predict the presence or risk of liver failure** based on patient biochemical and demographic data.
+2. **Optimize model performance** through data preprocessing and hyperparameter tuning using GridSearchCV.
+3. **Support early diagnosis and clinical decision-making** by identifying key indicators linked to liver dysfunction.
+4. **Provide a reusable predictive framework** for integration into healthcare analytics or digital diagnostic tools.
+
+### Introduction:
+This project focuses on predicting liver failure using machine learning techniques based on patient biochemical and demographic data. It aims to enable early detection of liver disorders and assist healthcare professionals in making accurate, data-driven decisions.
+
 ###  Algorithm:
+1. **Data Preparation:** Load or generate the liver dataset, handle missing values, and encode categorical features like Gender.
+2. **Preprocessing:** Apply scaling for numeric features and one-hot encoding for categorical features using a `ColumnTransformer`.
+3. **Model Training & Tuning:** Train a `RandomForestClassifier` combined with `GridSearchCV` to find the best hyperparameters.
+4. **Evaluation & Prediction:** Evaluate model performance using accuracy, precision, recall, and F1-score, then save the best model for future predictions.
 
 ### Program:
 ```python
